@@ -9,8 +9,7 @@ const preLoginUrl = 'http://login.sina.com.cn/sso/prelogin.php?';
 const regMatchJson = /\{.*?\}/;
 const userAgent = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'};
 let userInfo = {
-  name: 's2799021760@163.com',
-  // pwd: '080719203x'
+  name: 's2799021760@163.com'
 };
 let parameters = {
   'entry': 'weibo',
