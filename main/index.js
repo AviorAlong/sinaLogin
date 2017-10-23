@@ -3,7 +3,7 @@ const queryString = require('querystring');
 const superagent = require('superagent');
 const cheerio = require('cheerio');
 // const RSA = require('node-rsa');
-const sinaSSOEncoder = require('./sina.js');
+const sinaSSOEncoder = require('../sinaLib/sina.js');
 
 const HOME_RUL = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.19)&_=';
 const preLoginUrl = 'http://login.sina.com.cn/sso/prelogin.php?';
